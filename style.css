@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;   
+}
+
+/* Syntax for CSS
+tag {
+    propertyName: propertyValue
+}
+*/
+
+:root {
+    --space: 1rem;
+    --Xspace: 3rem;
+    --fontDarkColor: white;
+    --bgDarkColor: black;
+}
+
+body {
+   margin: 0;
+   padding: 0;
+   font-family: system-ui, sans-serif;
+   font-size: 20px;
+}
+
+.format {
+    padding: var(--space);
+    background-color: var(--bgDarkColor);
+    color: var(--fontDarkColor);
+}
+
+header {
+    display:flex;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+main {
+    padding: var(--space);
+
+}
+
+section {
+    padding: var(--space) var(--Xspace);
+}
+
+footer{
+
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
